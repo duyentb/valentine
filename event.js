@@ -429,8 +429,13 @@ $(document).ready(function(){
 			}
 		};
 	};
+	var audio = document.createElement("AUDIO");
+	document.body.appendChild(audio);
+	audio.src = "CoEmDoiBongVui.mp3";
 
-	mp3.play();
+	document.body.addEventListener("mousemove", function () {
+		audio.play();
+	});
 	setTimeout(function() {
 		Clock.init('canvas');
 	}, 2000)
