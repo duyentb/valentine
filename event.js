@@ -363,7 +363,9 @@ $(document).ready(function(){
 			event: function() {
 				var end = false;
 				console.log(texts.length)
-				document.addEventListener('click', function(e) {
+				$(document).on('click touchend', '#chow', function(event) {
+					event.preventDefault();
+					// Some code to be executed after #anyHTMLelement is Touched or clicked
 					textNum++;
 					if (textNum >= texts.length) {
 						textNum--;
@@ -372,7 +374,8 @@ $(document).ready(function(){
 					}
 					text = texts[textNum];
 					console.log(textNum)
-				}, false);
+				});
+				
 			}
 		};
 	})();
@@ -438,6 +441,6 @@ $(document).ready(function(){
 	});
 	setTimeout(function() {
 		Clock.init('canvas');
-	}, 2000)
+	}, 1500)
 
 });
