@@ -166,8 +166,8 @@ $(document).ready(function(){
 				y: 0
 			}, 
 			press = false, 
-			quiver = true, 
-			texts = ["Click/Tap", "Chow à !","Định mệnh","đã sắp đặt","cho hai ta","gặp nhau ^^","Ngay từ","lần đầu tiên","gặp em","anh đã","crush","em rồi ^^","Chắc em","cũng nhận ra", "anh có", "tình cảm", "với em", "từ lâu rồi", "đúng hông ^^", "Trải qua","hơn 1 năm","chỉ biết","đơn phương","thầm thương","trộm nhớ em","Thì hôm nay","anh muốn","lấy hết", "dũng khí","để tỏ tình","với em :3","Dù rằng","chưa biết","em đã có","người yêu","hay chưa","nhưng anh","vẫn muốn","cho em","biết rằng","dù thế nào","đi nữa thì","vẫn có 1 người","luôn sẵn sàng","đừng phía sau","chờ đợi em ^^","Tóm lại","anh chỉ muốn nói:","Anh thích em", "I love you","Always"],
+			quiver = true,
+			texts = ["Click/Tap", "màn hình nhé", "Hề lố ô", "Merry Christmas!", "Chúc bạn", "có một", "mùa giáng sinh", "vui vẻ", "và", "hạnh phúc", "bên gia đình", "và", "bạn bè nhá", "ahihi ^^"],
 			
 			text = texts[0],
 			textNum = 0,
@@ -434,7 +434,7 @@ $(document).ready(function(){
 	};
 	var audio = document.createElement("AUDIO");
 	document.body.appendChild(audio);
-	audio.src = "CoEmDoiBongVui.mp3";
+	audio.src = "WeWishYouAMerryChristmas.mp3";
 
 	document.body.addEventListener("mousemove", function () {
 		audio.play();
