@@ -7,7 +7,7 @@ $( document ).ready(function() {
 		hh = h / 2,
 		
 		opts = {
-			strings: [ 'HAPPY', 'WOMEN\'S', 'DAY!'],
+			strings: [ 'HAPPY', 'BIRTHDAY', 'TO', 'YOU!'],
 			charSize: 60,
 			charSpacing: 70,
 			lineHeight: 80,
